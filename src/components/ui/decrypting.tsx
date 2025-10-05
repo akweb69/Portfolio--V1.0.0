@@ -70,13 +70,13 @@ const DecryptingText: React.FC<DecryptingTextProps> = ({
 };
 
 const DecryptingView: React.FC = () => {
-  const demoLines = "In silence wakes the sleeping code";
-  const demoLines2 = "A whisper through the circuit flowed";
+  const demoLines = "Things I’ve Built";
+  const demoLines2 = "";
 
   return (
     <div className="flex flex-col items-center justify-center font-mono p-4 gap-2 overflow-hidden relative">
-      <div className="w-full max-w-4xl z-10 space-y-2">
-        <DecryptingText targetText={demoLines} speed={3} />
+      <div className="w-full max-w-4xl z-10 space-y-2 ">
+        <DecryptingText targetText={demoLines} speed={5} />
         <DecryptingText targetText={demoLines2} speed={3} />
       </div>
     </div>
