@@ -4,6 +4,7 @@ import Education from "./Education";
 import Projects from "./Projects";
 import Footer from "@/components/ui/Footer";
 import NewsletterSection from "@/components/ui/Newsletter";
+import ImageCarousel from "@/components/ui/imagecarousel";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Education></Education>
       <Projects></Projects>
       {/* footer */}
+      <ImageCarousel></ImageCarousel>
       <NewsletterSection></NewsletterSection>
       <Footer></Footer>
     </div>
