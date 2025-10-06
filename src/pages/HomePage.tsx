@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import Footer from "@/components/ui/Footer";
 import NewsletterSection from "@/components/ui/Newsletter";
 import ImageCarousel from "@/components/ui/imagecarousel";
+import Counting from "./Counting";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,8 @@ const HomePage = () => {
       <FallingGlitchAn></FallingGlitchAn>
       <Portfolio></Portfolio>
       <Education></Education>
+      {/* counting */}
+      <Counting></Counting>
       <Projects></Projects>
       {/* footer */}
       <ImageCarousel></ImageCarousel>
